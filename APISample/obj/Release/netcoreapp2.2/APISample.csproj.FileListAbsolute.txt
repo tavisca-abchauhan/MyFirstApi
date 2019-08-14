@@ -1,0 +1,13 @@
+C:\Users\abchauhan\source\repos\APISample\APISample\bin\Release\netcoreapp2.2\APISample.deps.json
+C:\Users\abchauhan\source\repos\APISample\APISample\bin\Release\netcoreapp2.2\APISample.runtimeconfig.json
+C:\Users\abchauhan\source\repos\APISample\APISample\bin\Release\netcoreapp2.2\APISample.runtimeconfig.dev.json
+C:\Users\abchauhan\source\repos\APISample\APISample\bin\Release\netcoreapp2.2\APISample.dll
+C:\Users\abchauhan\source\repos\APISample\APISample\bin\Release\netcoreapp2.2\APISample.pdb
+C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\APISample.csproj.CoreCompileInputs.cache
+C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\APISample.RazorAssemblyInfo.cache
+C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\APISample.RazorAssemblyInfo.cs
+C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\APISample.AssemblyInfoInputs.cache
+C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\APISample.AssemblyInfo.cs
+C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\APISample.RazorTargetAssemblyInfo.cache
+C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\APISample.dll
+C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\APISample.pdb
