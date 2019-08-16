@@ -11,3 +11,4 @@ C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\AP
 C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\APISample.RazorTargetAssemblyInfo.cache
 C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\APISample.dll
 C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\APISample.pdb
+C:\Users\abchauhan\source\repos\APISample\APISample\obj\Release\netcoreapp2.2\APISample.csprojAssemblyReference.cache

@@ -3,9 +3,6 @@ pipeline
 
     agent any
 
- 
-
-
     stages 
 	{
 
@@ -40,9 +37,9 @@ pipeline
 				
             steps {
 					
-                powershell 'dotnet publish'
+                powershell 'dotnet publish -c Release -o publish'
 					
-                echo "Testing.........."
+                echo "Publishing.........."
 
 						  }
 
@@ -54,7 +51,8 @@ pipeline
 				
             steps {
 					
-                powershell 'dotnet ApiTest/bin/Release/netcoreapp2.2/ApiTest.dll'
+                powershell 'docker build -t abhayimage -f Dockerfile .'
+		powershell 'docker run --rm -p 3120:80 abhayimage .'
 					
                 echo "Deploying.........."
 
@@ -63,7 +61,6 @@ pipeline
         				}
 			
     }
-
 
  			   post
 				{
@@ -75,7 +72,5 @@ pipeline
 
     				    }
 			
-    	}
-   
-               		 
+    	}                  		 
 }
