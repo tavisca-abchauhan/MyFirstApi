@@ -11,7 +11,7 @@ pipeline
 		
             steps {
 			
-                powershell 'dotnet build ApiTest.sln -p:configuration=release -v:n'
+                powershell 'dotnet build APISample.sln -p:configuration=release -v:n'
     
 				            echo "Building......."
  
