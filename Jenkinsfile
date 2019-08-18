@@ -11,7 +11,7 @@ pipeline
 		
             steps {
 			
-                powershell 'dotnet build ApiTest.sln -p:configuration=release -v:n'
+                powershell 'dotnet build APISample.sln -p:configuration=release -v:n'
     
 				            echo "Building......."
  
@@ -52,7 +52,7 @@ pipeline
             steps {
 					
                 powershell 'docker build -t abhayimage -f Dockerfile .'
-		powershell 'docker run --rm -p 3120:80 abhayimage .'
+		powershell 'docker run -p 3120:80 abhayimage .'
 					
                 echo "Deploying.........."
 
