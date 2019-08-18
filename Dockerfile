@@ -1,6 +1,6 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-nanoserver-1803 AS base
+FROM microsoft/dotnet:2.2-aspnetcore-runtime AS base
 
-WORKDIR app
-COPY APISample/publish .
+WORKDIR app/
+COPY APISample/bin/Release/netcoreapp2.2/ .
 EXPOSE 3120
 ENTRYPOINT ["dotnet", "APISample.dll"]
