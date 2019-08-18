@@ -52,7 +52,7 @@ pipeline
             steps {
 					
                 powershell 'docker build -t abhayimage -f Dockerfile .'
-		powershell 'docker run --rm -p 3120:80 abhayimage .'
+		powershell 'docker run -p 3120:80 abhayimage .'
 					
                 echo "Deploying.........."
 
