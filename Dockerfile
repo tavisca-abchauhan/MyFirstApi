@@ -1,5 +1,6 @@
+    
 FROM mcr.microsoft.com/dotnet/core/aspnet
+FROM microsoft/dotnet:2.2-aspnetcore-runtime
 WORKDIR app/
-COPY APISample/bin/Release/netcoreapp2.2/ .
-EXPOSE 3120
+COPY  /Release/publish/ .
 ENTRYPOINT ["dotnet", "APISample.dll"]
