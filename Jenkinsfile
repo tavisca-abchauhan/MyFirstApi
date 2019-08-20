@@ -36,7 +36,7 @@ pipeline
  					{
 				
             steps {
-					
+		powershell 'cd APISample'			
                 powershell 'dotnet publish -c Release -o publish'
 					
                 echo "Publishing.........."

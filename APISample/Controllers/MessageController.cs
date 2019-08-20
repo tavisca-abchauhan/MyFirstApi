@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace APISample.Controllers
 {
-    [Route("Msg/")]
+    [Route("api/Msg/")]
     public class MessageController : ControllerBase
     {
         [HttpGet("Hi/{value}")]
@@ -15,10 +15,10 @@ namespace APISample.Controllers
         {
             return "Hello "+value;
         }
-        [HttpGet("Hello/")]
+        [HttpGet("Hello/{value}")]
         public ActionResult<string> GetHi(string value)
         {
-            return "Hii "+value;
+            return "Hi "+value;
         }
        /* [HttpGet]
         public string Get()
