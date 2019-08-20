@@ -18,7 +18,7 @@ namespace APISample
         }
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
+       WebHost.CreateDefaultBuilder(args)
+           .UseStartup<Startup>().UseUrls(urls: "http://*:44329");
     }
 }
